@@ -116,8 +116,138 @@
  			<label>Ime</label>
  			<input type="text" class="form-control" placeholder="Add Name">
  		</div>
- 	</form>
- </container>
+ 		<div class="form-group">
+          <label>Email</label>
+          <input type="email" class="form-control" placeholder="Add Email">
+        </div>
+
+        <div class="form-group">
+          <label>Poruka</label>
+          <textarea class="form-control" placeholder="Add Message"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label>Spol</label>
+          <select class="form-control">
+            <option value="male">Muško</option>
+            <option value="female">Žensko</option>
+            <option value="other">Drugo</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Upload Fajl</label>
+          <input type="file">
+          <p class="help-block">Samo png i jpg dozvoljeni</p>
+        </div>
+
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> Check me out
+          </label>
+        </div>
+
+         <button type="submit" class="btn btn-default">Podnesi</button>
+        </form>
+        <hr>
+
+        <!--inline forme -->
+        <form class="form-inline">
+         <div class="form-group">
+           <label>Email</label>
+           <input type="email" class="form-control" placeholder="Email">
+         </div>
+         <div class="form-group">
+           <label>Šifra</label>
+           <input type="šifra" class="form-control" placeholder="Password">
+         </div>
+         <div class="checkbox">
+         <label>
+           <input type="checkbox"> Remember me
+         </label>
+         <button type="submit" class="btn btn-primary">Prijava</button>
+     </div>
+       </form>
+   </div>
+   <hr>
+
+   <div class="container">
+   		 <!--table -->
+    <div class="container">
+      <table class="table table-striped table-bordered table-hover table-condensed">
+        <tr>
+          <th>Ime</th>
+          <th>Prezime</th>
+          <th>Godište</th>
+        </tr>
+        <tr class="danger">
+          <td>Dino</td>
+          <td>Melin</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Halid</td>
+          <td>Bešlić</td>
+          <td>60</td>
+        </tr>
+        <tr class="success">
+          <td>Neko</td>
+          <td>Tamo</td>
+          <td>34</td>
+        </tr>
+        <tr>
+          <td>Niko</td>
+          <td>Nikić</td>
+          <td>47</td>
+        </tr>
+        <tr>
+          <td>Mujo</td>
+          <td>Mujić</td>
+          <td>19</td>
+        </tr>
+      </table>
+    </div>
+    <hr>
+
+       <!-- grupe listi -->
+    <div class="container">
+      <ul class="list-group">
+        <li class="list-group-item">Itejm Jedan</li>
+        <li class="list-group-item">Itejm Dva</li>
+        <li class="list-group-item">Itejm Tri</li>
+        <li class="list-group-item">Itejm Četiri</li>
+      </ul>
+
+      <div class="list-group">
+          <a href="#" class="list-group-item active">Ijtem Jedan</a>
+          <a href="#" class="list-group-item">Ijtem Dva</a>
+          <a href="#" class="list-group-item list-group-item-success">Ijtem Tri</a>
+          <a href="#" class="list-group-item disabled">Ijtem Četiri</a>
+        </div>
+    </div>
+
+    
+      <!--paneli -->
+       <div class="container">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">Panel title</h3>
+        </div>
+        <div class="panel-body">
+          Panel kontent
+        </div>
+        <div class="panel-footer">Panel Footer</div>
+      </div>
+
+      <hr>
+
+      <!--wells -->
+      <div class="well"> Hello World</div>
+      <div class="well well-lg"> Hello World</div>
+      <div class="well well-sm"> Hello World</div>
+
+      <hr>
+ 
 
  	<div style="height: 400px"></div>
 
